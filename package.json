@@ -20,6 +20,7 @@
     ]
   },
   "dependencies": {
+    "@umijs/hooks": "^1.9.2",
     "@umijs/preset-react": "1.x",
     "@umijs/test": "^3.2.2",
     "lint-staged": "^10.0.7",
@@ -30,5 +31,7 @@
     "umi": "^3.2.2",
     "yorkie": "^2.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "chance": "^1.1.6"
+  }
 }

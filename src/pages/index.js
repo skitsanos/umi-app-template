@@ -1,6 +1,5 @@
 import {useSession} from '@/entities';
 import React from 'react';
-import styles from './index.less';
 
 export default () =>
 {
@@ -8,14 +7,17 @@ export default () =>
 
     return (
         <div>
-            <h1 className={styles.title}>Page index</h1>
+            <div className={'h-box'}>
+                <h1 className={'m0'}>&#9862; Page index</h1>
+                <h3 className={'m0 ml'}>This is a blank template for your application</h3>
+            </div>
 
-            <div className="App">
+            <div className={'p1 h-box'}>
                 Logged in: {session.isLoggedIn ? `yes (${session.user.username})` : 'no'}
-                <div>
+                <div className={'ml'}>
                     <a onClick={() =>
                     {
-                        login({isLoggedIn: true, user: {username: 'skitsanos'}});
+                        login({isLoggedIn: true, user: {username: 'demo-user'}});
                     }}>
                         Login
                     </a>{' '}
