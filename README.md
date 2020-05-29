@@ -26,13 +26,7 @@ $node --version
 v13.7.0
 ```
 
-Then install umi globally. We recommend to use `yarn` to manage npm dependencies.
-
-```sh
-$yarn global add umi
-```
-
-Now, you can clone umi-app-template code base:
+Clone umi-app-template code base:
 
 ```sh
 $git clone https://github.com/skitsanos/umi-app-template.git
@@ -50,14 +44,13 @@ Inside you will have the following folder structure
 /mock
 /src
 .env
-.eslintrc
 .umirc.js
 package.json
 README.md
 webpack.config.js
 ```
 
-And, then
+Now you can install the dependencies
 
 ```sh
 $yarn
