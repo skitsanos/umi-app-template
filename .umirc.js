@@ -1,7 +1,8 @@
 import {defineConfig} from 'umi';
 
 export default defineConfig({
-    hash: false,
+    //webpack5: {},
+
     ignoreMomentLocale: true,
 
     title: 'UmiJs Sample app',
@@ -17,6 +18,13 @@ export default defineConfig({
     dynamicImport: {
         loading: '@/components/Loading/index.js'
     },
+
+    metas:[
+        {
+            property: 'og:locale',
+            content: 'en_US'
+        }
+    ],
 
     headScripts: [
         {

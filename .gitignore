@@ -3,3 +3,4 @@
 /src/.umi/
 /src/.umi-production/
 /dist/
+*.lock
